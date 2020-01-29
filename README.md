@@ -89,7 +89,8 @@ Ahora veremos como automatizar los procesos necesarios para el despliegue de la 
 
 ## Considerar lo siguiente<br/>
 •	EL nombre de registro de contenedor debe ser un espacio que ya exista<br/>
-•	Usaremos el cluster que creamos anteriormente<br/>
+•	Usaremos el cluster que creamos anteriormente llenando el apartado de "cluster name"<br/>
+•	Si el namespace no existe dentro del cluster este sera creado automáticamente.<br/>
 •	Si el espacio “prod” no existe dentro del cluster este sera creado.<br/>
 
 Una vez que le demos crear podremos vizualisar nuestras herramientas. Entre ellas nuestro Delivery Pipeline que se encargara de crear los procesos que automatizaremos<br/>
