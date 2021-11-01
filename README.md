@@ -37,13 +37,13 @@ Corremos el siguiente comando para ver si nuestro cluster esta en un estado “N
     ibmcloud cs clusters
 Corremos el siguiente comando para ver que nuestros workers estén en un estado “normal” con un estatus “ready”
 ###
-    ibmcloud cs workers <yourclustername>
+    ibmcloud cs workers --cluster <yourclustername>
 ![](assets/4.png)<br/>
 Tomamos nota de nuestra IP Pública (En mi caso 184.172.234.189)
 ## Configuración de kubectl
 En nuestra línea de comandos corremos el siguiente comando:
 ###
-    ibmcloud cs cluster-config <yourclustername>
+    ibmcloud cs cluster config --cluster <yourclustername>
 Debería regresar una línea semejante a la siguiente:
 ###
     SET KUBECONFIG=C:\Users\Your_user\.bluemix\plugins\container-service\clusters\Track10\kube-config-hou02-Track10.yml
