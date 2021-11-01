@@ -88,7 +88,8 @@ Ahora veremos como automatizar los procesos necesarios para el despliegue de la 
 ![](assets/20.png)<br/>
 
 ## Considerar lo siguiente<br/>
-•	EL nombre de registro de contenedor debe ser un espacio que ya exista<br/>
+•	EL nombre de registro de contenedor debe ser un espacio que ya exista, se puede checar usando el comando:
+ibmcloud ks clusters . Y seleccionamos el valor de ID <br/>
 •	Usaremos el cluster que creamos anteriormente llenando el apartado de "cluster name"<br/>
 •	Si el namespace no existe dentro del cluster este sera creado automáticamente.<br/>
 •	Si el espacio “prod” no existe dentro del cluster este sera creado.<br/>
