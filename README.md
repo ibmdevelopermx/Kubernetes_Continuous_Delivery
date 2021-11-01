@@ -26,12 +26,12 @@ Despliega una app en Continuous Delivery utilizando DevOps con Kubernetes y Helm
 En caso de no tener instalado el plugin container-service, corer el siguiente commando:
 ###
     ibmcloud plugin install container-service -r Bluemix
+Hacemos login a IBM Cloud a travéz de un codigo de autenticacion con el comando:
+###
+    ibmcloud login --sso
 Para crear un cluster realizamos el siguiente comando:
 ###
-    ibmcloud cs cluster-create --name <name-of-cluster>
-Hacemos login a IBM Cloud:
-###
-    ibmcloud login 
+    ibmcloud cs cluster create classic --name <name-of-cluster>
 Corremos el siguiente comando para ver si nuestro cluster esta en un estado “Normal”
 ###
     ibmcloud cs clusters
