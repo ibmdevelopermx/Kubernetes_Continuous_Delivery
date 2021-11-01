@@ -98,7 +98,7 @@ Una vez que le demos crear podremos vizualisar nuestras herramientas. Entre ella
 ![](assets/21.png)<br/>
 
 7. Entramos a nuestra herramienta “Delivery Pipeline”<br/>
-![](assets/27.png)<br/>
+![](assets/27.PNG)<br/>
 
 Como podemos observar, cuando creamos la cadena de herramientas, esta automaticamente genero los procesos necesarios para realizar el despliegue. Entre los que se encuentran el “Build” donde se revisan las pruebas y se ensambla todo el codigo a ejecutar. La Containerizacion de nuestra aplicación es la parte donde se monta el servicio en el Kubernete.
 Y por ultimo el despliegue de la aplicación en un Deploy<br/>
